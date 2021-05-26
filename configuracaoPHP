@@ -15,3 +15,5 @@ php -v
 
 ## Alterar e selecionar a versão instalada na maquina:
 sudo update-alternatives --config php
+a2dismod phpx.x
+a2enmod phpx.x
