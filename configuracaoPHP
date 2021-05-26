@@ -1,0 +1,17 @@
+# Como instalar o PHP no Ubuntu 20.04
+
+## Configuração do repositório:
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+
+## Atualize as informações do pacote:
+sudo apt update
+
+## O comando abaixo irá instalar o php, subistitua o X pela versão desejada:
+sudo apt install -y phpX.X
+
+## Verificar a versão instalada:
+php -v
+
+## Alterar e selecionar a versão instalada na maquina:
+sudo update-alternatives --config php
