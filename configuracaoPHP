@@ -17,3 +17,6 @@ php -v
 sudo update-alternatives --config php
 a2dismod phpx.x
 a2enmod phpx.x
+
+reiniciar o serviço do apache
+sudo systemctl restart apache2
